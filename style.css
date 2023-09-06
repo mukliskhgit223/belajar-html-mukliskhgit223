@@ -96,7 +96,7 @@
     background-color: #fff;
     border-radius: 10px;
     padding: 100px 25px;
-    /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 100%;
   }
@@ -303,12 +303,12 @@ footer .top h1{
     }
   
     header ul.active {
-      left: 0;
+      right: 0;
     }
   
     header ul {
       position: absolute;
-      width: 100%;
+      width: 50%;
       height: calc(100vh - 50px);
       background-color: rgb(124, 173, 50);
       top: 60px;
