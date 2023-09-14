@@ -3,3 +3,8 @@ tombolToggle.addEventListener("click", function () {
   const nav = document.querySelector(".nav");
   nav.classList.toggle("active");
 });
+
+new TypeIt(".textBerjalan", {
+  speed: 100,
+  loop: true,
+}).go();
